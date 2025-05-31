@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { fetchGenres, getMovieSuggestions } from '../../services/movieApi';
-import { SearchFilters, Genre } from '../../types/movie';
+import { fetchGenres, getMovieSuggestions } from '../services/movieApi';
+import { SearchFilters, Genre } from '../types/movie';
 import SearchBarDropdown from './SearchBarDropdown';
 import SearchBarAutoComplete from './SearchBarAutoComplete';
 
