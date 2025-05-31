@@ -51,13 +51,7 @@ yarn install
 O projeto utiliza a API do TMDB. Você precisará de uma chave de API para que os dados dos filmes sejam carregados.
 
 * Crie um arquivo `.env` na raiz do projeto.
-* Adicione sua chave de API do TMDB a este arquivo, conforme o exemplo:
-
-    ```
-    REACT_APP_TMDB_API_KEY=cf6ec6ffbab96b9197ffb9188ffaa4
-    ```
-
-    (A chave `cf6ec6ffbab96b9197ffb9188ffaa4` já foi fornecida e pode ser usada diretamente, mas a prática recomendada é usar variáveis de ambiente.)
+* Adicione sua chave de API do TMDB a este arquivo.
 
 ### 4. Iniciar a Aplicação
 
